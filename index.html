@@ -27,18 +27,21 @@
                                         Register Now 
                                     </h2>
                                 </div>
-                                
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Name" id="name" required>
+                                    <label for="name" class="form__label">Name</label>
+                                </div>
                                 <div class="form__group">
                                     <input type="email" class="form__input" placeholder="Email address" id="email" required>
                                     <label for="email" class="form__label">Email address</label>
                                 </div>
                                 <div class="form__group">
-                                    <input type="password" class="form__input" placeholder="Password" id="name" required>
+                                    <input type="password" class="form__input" placeholder="Password" id="password" required>
                                     <label for="password" class="form__label"></label>
                                 </div>
 
                                 <div class="form__group">
-                                    <button class="btn btn--green">Sign Up</button>
+                                    <button class="btn btn--green" onclick="signup()">Sign Up</button>
                                 </div>
                             </form>
                         </div>
@@ -47,4 +50,5 @@
             </section>
 
     </body>
+    <script src="main.js"></script>
 </html>
