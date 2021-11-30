@@ -8,7 +8,7 @@ const signup = () => {
 
     var result = null
 
-fetch("http://localhost:3000/v1/masteruser/signup", {
+fetch("http://18.117.223.198:3000/v1/masteruser/signup", {
   method: "POST",
   body: JSON.stringify({
    "name" :name,
